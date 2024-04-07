@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "postcss": "^8.4.38"
+  },
+  "name": "html-capolavoro",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/raw.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
