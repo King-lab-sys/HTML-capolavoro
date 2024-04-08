@@ -7,11 +7,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 header {
-    background-color: #333;
+    background-color: #ffffff6c;
     color: #fff;
     padding: 100px;
     text-align: center;
@@ -24,7 +24,7 @@ main {
 section {
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -35,24 +35,40 @@ h2 {
 
 p {
     line-height: 1.6;
-    color: #555;
+    color: #444;
 }
 
-/* Home Page Style */
+/* Navbar Style */
+
+.navbar {
+    background-color: rgb(39 39 42);
+    padding: 1vw 2vw;
+}
+
+.navbar-logo {
+    position: absolute;
+    padding: 1vw 2vw;
+}
+
+.navbar-element-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .nav-element {
-    background-color: #444;
-    color: #ffffff60;
-    display: inline-block;
+    color: #ffffff;
+    display: inline-flex;
     margin-right: 10px;
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .nav-element:hover {
-    background-color: #333;
-    color: #fff;
+    color: #00a2ff;
+    text-decoration: underline;
 }
 
 /* Pages Style */
@@ -61,3 +77,4 @@ p {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
 }
+
