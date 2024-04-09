@@ -25,9 +25,12 @@ header {
 }
 
 .navbar-logo {
-    max-width: 100%;
-    height: auto; 
-    margin-right: 20px;
+    width: 25vw;
+    height: 1.75vw;
+    top: 3.2vw;
+
+-webkit-user-drag: none;
+-moz-window-dragging: none;
 
 
 
@@ -37,18 +40,22 @@ header {
 
 .navbar-element-container {
     display: flex;
+    justify-content: center;
     align-items: center;
 
 .nav-element {
     color: #ffffff;
-    margin-left: 10px;
+    display: inline-flex;
+    margin-right: 10px;
     padding: 10px;
+    text-align: center;
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+}
 
 .nav-element:hover {
-    color: #ffbb00 !important;
+    color: #ffbb00;
     text-decoration: underline;
 }
 
