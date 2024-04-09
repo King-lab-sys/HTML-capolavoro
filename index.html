@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/output.css">
+    <script src="./js/index.js"></script>
     <title>Capolavoro HTML</title>
 </head>
 <body>
 
 
 
-<nav class="navbar">
-    <img class="navbar-logo" src="./assets/logo.jpg" alt="Logo">
-    <ul class="navbar-element-container flex justify-center bg-zinc-800">
-        <li class="nav-element "><a href="../index.html">Home</a></li>
-        <li class="nav-element "><a href="./pages/lisbona.html">Lisbona</a></li>
-        <li class="nav-element "><a href="./pages/impianti.html">Impianti</a></li>
-        <li class="nav-element "><a href="./pages/analitica.html">Analitica</a></li>
-        <li class="nav-element "><a href="./pages/organica.html">Organica</a></li>
-        <li class="nav-element "><a href="./pages/stage.html">Stage</a></li>
-        <li class="nav-element "><a href="./pages/sito.html">Sito</a></li>
-        
-    </ul>
-</nav>
-
+    <nav class="navbar">
+        <div class="flex items-center">
+            <img id="navbar-logo" class="navbar-logo pr-2" src="./assets/logo.png" alt="Logo">
+            <div class="">
+                <ul class="navbar-element-container flex justify-end self-stretch items-center  bg-zinc-800">
+                    <li class="nav-element "><a href="../index.html">Home</a></li>
+                    <li class="nav-element "><a href="./pages/stage.html">Stage</a></li>
+                    <li class="nav-element "><a href="./pages/impianti.html">Impianti</a></li>
+                    <li class="nav-element "><a href="./pages/analitica.html">Analitica</a></li>
+                    <li class="nav-element "><a href="./pages/organica.html">Organica</a></li>
+                    <li class="nav-element "><a href="./pages/lisbona.html">Lisbona</a></li>
+                    <li class="nav-element "><a href="./pages/sito.html">Sito</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
 
 
@@ -33,15 +37,60 @@
         <img src="assets/IMG_4139.jpg"  alt="Intestazione" style="max-width: 80%; height: auto; display: block; margin: 0 auto;">
     </header>
 
-
 </main>
 
-<section id="Idea Progetto" class="text-center">
-<h1>
-    <strong>
-    L'idea del progetto
-    </strong>
-</h1>
+<section id="Idea Progetto" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto
+        </strong>
+    </h1>
+    <p> L'idea del progetto è nata con l'associazione......</p>  
+</section>
+
+<!-- V DEBUG V -->
+<section id="Idea Progetto" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto
+        </strong>
+    </h1>
+    <p> L'idea del progetto è nata con l'associazione......</p>  
+</section>
+
+<section id="Idea Progetto1" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto 1
+        </strong>
+    </h1>
+    <p> L'idea del progetto è nata con l'associazione......</p>  
+</section>
+
+<section id="Idea Progetto2" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto 2
+        </strong>
+    </h1>
+    <p> L'idea del progetto è nata con l'associazione......</p>  
+</section>
+
+<section id="Idea Progetto3" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto 3
+        </strong>
+    </h1>
+    <p> L'idea del progetto è nata con l'associazione......</p>  
+</section>
+
+<section id="Idea Progetto4" class="text-section text-center">
+    <h1>
+        <strong>
+        L'idea del progetto 4
+        </strong>
+    </h1>
     <p> L'idea del progetto è nata con l'associazione......</p>  
 </section>
 
@@ -50,6 +99,12 @@
 <footer style="background-color: #333; color: white; text-align: center; padding: 20px;">
     Sito realizzato .... 
 </footer>
+
+<button id="back-to-top" class="back-to-top" onclick=scrollToTop()> 
+    <img src="./assets/up-arrow.svg" alt="Top">
+
+</button>
+
 
 </body>
 </html>
