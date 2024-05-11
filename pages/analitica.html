@@ -1,42 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/output.css">
     <link rel="icon" href="../assets/icona sito.ico">
     <title>Analitica</title>
+    <link rel="stylesheet" href="../raw.css">
 </head>
+
 <body>
 
     <nav class="navbar">
-        <div class="flex items-center">
-            <img id="navbar-logo" class="navbar-logo pr-2" src="../assets/logo.png" alt="Logo">
-            <div class="">
-                <ul class="navbar-element-container flex justify-center bg-zinc-800">
-                    <li class="nav-element "><a href="../index.html">Home</a></li>
-                    <li class="nav-element "><a href="./stage.html">Stage</a></li>
-                    <li class="nav-element "><a href="./impianti.html">Impianti</a></li>
-                    <li class="nav-element "><a href="./analitica.html">Analitica</a></li>
-                    <li class="nav-element "><a href="./organica.html">Organica</a></li>
-                    <li class="nav-element "><a href="./lisbona.html">Lisbona</a></li>
-                    <li class="nav-element "><a href="./sito.html">Sito</a></li>
-                </ul>
-            </div>
-        </div>
+        <a href="../index.html">
+            <img id="navbar-logo" class="navbar-logo" src="../assets/logo.png" alt="Logo"></a>
+        <ul class="navbar-element-container flex justify-center bg-zinc-800">
+            <li class="nav-element "><a href="../index.html">Home</a></li>
+            <li class="nav-element "><a href="./stage.html">Stage</a></li>
+            <li class="nav-element "><a href="./analitica.html">Analitica</a></li>
+            <li class="nav-element "><a href="./impianti.html">Impianti</a></li>
+            <li class="nav-element "><a href="./organica.html">Organica</a></li>
+            <li class="nav-element "><a href="./lisbona.html">Lisbona</a></li>
+        </ul>
     </nav>
 
-    <section id="Stage" class="text-center">
-        <h1>
-            <strong>
-            Spiegazione di Analitica
-            </strong>
-        </h1>
-        <p>Durante le ore di analitica.....</p>  
-    </section>
+    <img src="../assets/analitica.png" alt="Analitica 1"
+        style="width: 1500px; height: auto; display: block; margin: 0 auto;">
 
-    <footer style="position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333; color: white; text-align: center; padding: 20px;">
-        Sito realizzato da Pezzaioli Francesco 
+    <p class="paragrafo-secondario">
+        Quest'anno ho avuto l'opportunità di immergermi nel mondo dell'analisi chimica, focalizzandomi
+        sull'elettrochimica e sulla conduttometria. Attraverso esperimenti condotti in laboratorio, ho potuto esplorare
+        da vicino i principi fondamentali dell'elettrochimica, come i processi di ossidazione e riduzione, nonché le
+        applicazioni pratiche degli elettrodi. Inoltre, ho approfondito la conduttometria, un metodo analitico che mi ha
+        permesso di comprendere meglio come misurare la conducibilità elettrica di una soluzione per determinare la
+        concentrazione di ioni.
+    </p>
+
+
+    <div class="paragrafo-stondato">
+        <img src="../assets/elettrolisi.png" alt="Organica 1" class="immagine-luogo">
+        <div class="descrizione">
+            <h2><strong>
+                    Elettrolisi
+                </strong></h2>
+            <p>
+                L'elettrolisi è un processo che utilizza l'elettricità per dividere le sostanze in parti più piccole.
+                Quando una corrente elettrica passa attraverso una sostanza liquida o fusa chiamata elettrolita, gli
+                ioni si muovono verso gli elettrodi, dove possono reagire chimicamente per formare nuove sostanze. Ad
+                esempio, l'elettrolisi dell'acqua produce idrogeno e ossigeno.</p>
+        </div>
+    </div>
+    <div class="paragrafo-stondato">
+        <img src="../assets/conduttimetro.png" alt="Organica 2" class="immagine-luogo">
+        <div class="descrizione">
+            <h2><strong>
+                    Conduttimetria
+                </strong>
+            </h2>
+            <p>
+                La conduttimetria è un metodo che utilizza la conducibilità elettrica di una soluzione per analizzarne
+                le proprietà. Si misura la capacità di una soluzione di condurre corrente elettrica, che dipende dalla
+                presenza di ioni disciolti. Per effettuare questo viene utilizzato uno strumento chiamato conduttimetro.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="paragrafo-stondato">
+        <img src="../assets/spettrofotometro.png    " alt="Organica 3" class="immagine-luogo">
+        <div class="descrizione">
+            <h2>
+                <strong>
+                    Spettrofotometria
+                </strong>
+            </h2>
+            <p>
+                La spettrofotometria è una tecnica che misura l'assorbanza o la trasmissione della luce attraverso una
+                soluzione. Si utilizza uno strumento chiamato spettrofotometro per emettere luce di diverse lunghezze
+                d'onda attraverso la soluzione e misurare l'intensità della luce che emerge. Questo permette di
+                determinare la concentrazione di sostanze in soluzione, ed è utilizzato in diversi settori come chimica,
+                biologia e farmaceutica.</p>
+
+        </div>
+    </div>
+
+    <footer style="left: 0; width: 100%; background-color: #333; color: white; text-align: center; padding: 20px;">
+        Sito realizzato da Pezzaioli Francesco
     </footer>
 </body>
+
 </html>

@@ -1908,10 +1908,6 @@ video {
      object-fit: scale-down;
 }
 
-.pr-2 {
-  padding-right: 0.5rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -2423,7 +2419,7 @@ header {
 }
 
 .text-section {
-  background-color: #f5e9e9;
+  background-color: #b9b9b9;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 255, 136, 0.1);
   margin-bottom: 20px;
@@ -2433,76 +2429,123 @@ header {
 /* Navbar Style */
 
 .navbar {
-  background-color: rgb(39 39 42);
+  position: relative;
+  /* Per consentire il posizionamento assoluto del logo */
+  background-color: rgb(39, 39, 42);
   padding: 1vw 2vw;
 }
 
 .navbar-logo {
-  width: 25vw;
-  height: 1.75vw;
-  top: 3.2vw;
-  -webkit-user-drag: none;
-  -moz-window-dragging: none;
-}
-
-.navbar-logo:hover {
-  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  /* Posiziona il logo al centro verticalmente */
+  left: 0;
+  /* Sposta il logo tutto a sinistra */
+  transform: translateY(-50%);
+  /* Centra il logo verticalmente */
 }
 
 .navbar-element-container {
   display: flex;
   justify-content: center;
+  /* Allinea gli elementi al centro */
   align-items: center;
 }
 
 .nav-element {
   color: #ffffff;
-  display: inline-flex;
+  margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-element:hover {
-  color: #00a2ff;
+  color: #ffbb00;
   text-decoration: underline;
 }
 
-/* Pages Style */
+Pages Style 
 
-.page-gradient {
-  background: rgb(131,58,180);
-  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 50%, rgba(252,176,69,1) 100%);
+    .luogo-visitato {
+  max-width: 1000px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
 }
 
-/* Back-to-top button Style */
-
-.back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 15px;
-  border-radius: 4px;
-  width: 4vw;
-  height: 4vw;
-  background-color: #776b6b;
-  font-size: 3em;
-  text-decoration: none;
-  z-index: 1000;
-  display: none;
-  /* Nasconde il bottone all'inizio */
+.immagine-luogo {
+  max-width: 200px;
+  /* Regola la larghezza massima dell'immagine */
+  margin-right: 20px;
+  /* Aggiunge spazio tra l'immagine e la descrizione */
 }
 
-.back-to-top > img {
-  -webkit-user-drag: none;
-  -moz-window-dragging: none;
+.descrizione {
+  flex-grow: 1;
+  /* Fai espandere la descrizione per occupare lo spazio disponibile */
+  width: 20vw;
 }
 
-.back-to-top:hover {
-  background-color: #635e5e;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.luogo-visitato h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.luogo-visitato p {
+  font-size: 1rem;
+}
+
+.stage-titolo {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-left: 368.5px;
+}
+
+.paragrafo-stondato {
+  background-color: #f2f2f2;
+  /* Sostituisci con il colore grigio desiderato */
+  padding: 20px;
+  /* Regola il padding a tuo piacimento */
+  border-radius: 10px;
+  /* Regola la curvatura dei bordi */
+  margin: 0 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vw;
+}
+
+.paragrafo-senza-contorno {
+  border: none;
+  /* Rimuove il bordo */
+  padding: 0;
+  /* Rimuove il padding */
+  margin: 0 auto;
+  /* Imposta il margine a "auto" per centrare il paragrafo */
+  max-width: 800px;
+  /* Specifica la larghezza massima del paragrafo introduttivo */
+  text-align: center;
+  /* Centra il testo */
+  /* Aggiungi altri stili desiderati per il paragrafo introduttivo */
+}
+
+/* Aggiungi questa parentesi graffa */
+
+.paragrafo-secondario {
+  max-width: 800px;
+  /* Specifica la larghezza massima del paragrafo */
+  margin: 20px auto;
+  /* Imposta il margine per centrare il paragrafo e aggiunge spazio sopra e sotto */
+  text-align: justify;
+  /* Allinea il testo giustificato per una migliore leggibilità */
+  /* Aggiungi altri stili desiderati per il paragrafo secondario */
 }
 
 @media (min-width: 640px) {
