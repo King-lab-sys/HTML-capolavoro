@@ -830,6 +830,32 @@ video {
   width: weird-and-invalid;
 }
 
+.w-4 {
+  width: 1rem;
+}
+
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1964,6 +1990,16 @@ video {
   vertical-align: super;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2467,9 +2503,7 @@ header {
   text-decoration: underline;
 }
 
-Pages Style 
-
-    .luogo-visitato {
+Pages Style .luogo-visitato {
   max-width: 1000px;
   border-radius: 10px;
   background-color: #f0f0f0;
@@ -2520,6 +2554,7 @@ Pages Style
   align-items: center;
   justify-content: center;
   margin-bottom: 2vw;
+  gap: 2rem;
 }
 
 .paragrafo-senza-contorno {
@@ -2546,6 +2581,41 @@ Pages Style
   text-align: justify;
   /* Allinea il testo giustificato per una migliore leggibilità */
   /* Aggiungi altri stili desiderati per il paragrafo secondario */
+}
+
+.paragrafo-stondato-indexhtml {
+  background-color: #f2f2f2;
+  /* Sostituisci con il colore grigio desiderato */
+  padding: 20px;
+  /* Regola il padding a tuo piacimento */
+  border-radius: 10px;
+  /* Regola la curvatura dei bordi */
+  display: flex;
+  flex-direction: row;
+  /* Disponi gli elementi in riga */
+  justify-content: space-between;
+  /* Allinea gli elementi su tutto lo spazio disponibile */
+  margin-bottom: 2vw;
+  /* Aggiungi un margine inferiore */
+}
+
+.paragrafo-stondato-indexhtml img {
+  max-width: 40%;
+  /* Regola la larghezza massima dell'immagine */
+  border-radius: 10px;
+  /* Assicura che l'immagine abbia lo stesso raggio dei bordi del contenitore */
+}
+
+.paragrafo-stondato-indexhtml .testo {
+  flex: 1;
+  /* Fai in modo che il testo occupi tutto lo spazio rimanente */
+  margin-right: 20px;
+  /* Aggiungi un margine a destra per separare l'immagine dal testo */
+}
+
+.titolone-stage {
+  display: flex;
+  justify-content:center;
 }
 
 @media (min-width: 640px) {

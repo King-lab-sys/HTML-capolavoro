@@ -20,21 +20,26 @@
     /* Navbar Style */
 
     .navbar {
-        position: relative; /* Per consentire il posizionamento assoluto del logo */
+        position: relative;
+        /* Per consentire il posizionamento assoluto del logo */
         background-color: rgb(39, 39, 42);
         padding: 1vw 2vw;
     }
 
     .navbar-logo {
         position: absolute;
-        top: 50%; /* Posiziona il logo al centro verticalmente */
-        left: 0; /* Sposta il logo tutto a sinistra */
-        transform: translateY(-50%); /* Centra il logo verticalmente */
+        top: 50%;
+        /* Posiziona il logo al centro verticalmente */
+        left: 0;
+        /* Sposta il logo tutto a sinistra */
+        transform: translateY(-50%);
+        /* Centra il logo verticalmente */
     }
 
     .navbar-element-container {
         display: flex;
-        justify-content: center; /* Allinea gli elementi al centro */
+        justify-content: center;
+        /* Allinea gli elementi al centro */
         align-items: center;
     }
 
@@ -53,9 +58,7 @@
         text-decoration: underline;
     }
 
-    Pages Style 
-
-    .luogo-visitato {
+    Pages Style .luogo-visitato {
         max-width: 1000px;
         border-radius: 10px;
         background-color: #f0f0f0;
@@ -66,12 +69,15 @@
     }
 
     .immagine-luogo {
-        max-width: 200px; /* Regola la larghezza massima dell'immagine */
-        margin-right: 20px; /* Aggiunge spazio tra l'immagine e la descrizione */
+        max-width: 200px;
+        /* Regola la larghezza massima dell'immagine */
+        margin-right: 20px;
+        /* Aggiunge spazio tra l'immagine e la descrizione */
     }
 
     .descrizione {
-        flex-grow: 1; /* Fai espandere la descrizione per occupare lo spazio disponibile */
+        flex-grow: 1;
+        /* Fai espandere la descrizione per occupare lo spazio disponibile */
         width: 20vw;
     }
 
@@ -91,31 +97,83 @@
         margin-left: 368.5px;
     }
 
-   
+
     .paragrafo-stondato {
-        background-color: #f2f2f2; /* Sostituisci con il colore grigio desiderato */
-        padding: 20px; /* Regola il padding a tuo piacimento */
-        border-radius: 10px; /* Regola la curvatura dei bordi */
+        background-color: #f2f2f2;
+        /* Sostituisci con il colore grigio desiderato */
+        padding: 20px;
+        /* Regola il padding a tuo piacimento */
+        border-radius: 10px;
+        /* Regola la curvatura dei bordi */
         margin: 0 20vw;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         margin-bottom: 2vw;
+        gap: 2rem;
     }
 
+
     .paragrafo-senza-contorno {
-        border: none; /* Rimuove il bordo */
-        padding: 0; /* Rimuove il padding */
-        margin: 0 auto; /* Imposta il margine a "auto" per centrare il paragrafo */
-        max-width: 800px; /* Specifica la larghezza massima del paragrafo introduttivo */
-        text-align: center; /* Centra il testo */
+        border: none;
+        /* Rimuove il bordo */
+        padding: 0;
+        /* Rimuove il padding */
+        margin: 0 auto;
+        /* Imposta il margine a "auto" per centrare il paragrafo */
+        max-width: 800px;
+        /* Specifica la larghezza massima del paragrafo introduttivo */
+        text-align: center;
+        /* Centra il testo */
         /* Aggiungi altri stili desiderati per il paragrafo introduttivo */
-    } /* Aggiungi questa parentesi graffa */
-    
+    }
+
+    /* Aggiungi questa parentesi graffa */
+
     .paragrafo-secondario {
-        max-width: 800px; /* Specifica la larghezza massima del paragrafo */
-        margin: 20px auto; /* Imposta il margine per centrare il paragrafo e aggiunge spazio sopra e sotto */
-        text-align: justify; /* Allinea il testo giustificato per una migliore leggibilità */
+        max-width: 800px;
+        /* Specifica la larghezza massima del paragrafo */
+        margin: 20px auto;
+        /* Imposta il margine per centrare il paragrafo e aggiunge spazio sopra e sotto */
+        text-align: justify;
+        /* Allinea il testo giustificato per una migliore leggibilità */
         /* Aggiungi altri stili desiderati per il paragrafo secondario */
+    }
+
+    .paragrafo-stondato-indexhtml {
+        background-color: #f2f2f2;
+        /* Sostituisci con il colore grigio desiderato */
+        padding: 20px;
+        /* Regola il padding a tuo piacimento */
+        border-radius: 10px;
+        /* Regola la curvatura dei bordi */
+        display: flex;
+        flex-direction: row;
+        /* Disponi gli elementi in riga */
+        justify-content: space-between;
+        /* Allinea gli elementi su tutto lo spazio disponibile */
+        margin-bottom: 2vw;
+        /* Aggiungi un margine inferiore */
+    }
+
+    .paragrafo-stondato-indexhtml img {
+        max-width: 40%;
+        /* Regola la larghezza massima dell'immagine */
+        border-radius: 10px;
+        /* Assicura che l'immagine abbia lo stesso raggio dei bordi del contenitore */
+    }
+
+    .paragrafo-stondato-indexhtml .testo {
+        flex: 1;
+        /* Fai in modo che il testo occupi tutto lo spazio rimanente */
+        margin-right: 20px;
+        /* Aggiungi un margine a destra per separare l'immagine dal testo */
+    }
+
+    .titolone-stage {
+        display: flex;
+        justify-content:center;
+
+
     }
